@@ -2,16 +2,16 @@
 <rss version="2.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">
 <channel>
 <title>耳学習</title>
-<link>https://GITHUB_USER.github.io/mimigaku-podcast/</link>
+<link>https://kaorunow.github.io/mimigaku-podcast/</link>
 <description>Obsidianに蓄積した業務ノートから毎週自動生成している、通勤・家事の時間に聴くための個人用番組です。</description>
 <language>ja</language>
-<itunes:author></itunes:author>
+<itunes:author>kaorunow</itunes:author>
 <itunes:explicit>false</itunes:explicit>
 <itunes:category text="Government"/>
 <item>
 <title>想定問答ドリル（8月16日）</title>
 <description>想定問答ドリル</description>
-<enclosure url="https://GITHUB_USER.github.io/mimigaku-podcast/episodes/2026-08-16_想定問答ドリル.m4a" length="1730226" type="audio/x-m4a"/>
+<enclosure url="https://kaorunow.github.io/mimigaku-podcast/episodes/2026-08-16_想定問答ドリル.m4a" length="1730226" type="audio/x-m4a"/>
 <guid isPermaLink="false">2026-08-16_想定問答ドリル.m4a</guid>
 <pubDate>Sun, 16 Aug 2026 07:00:00 -0000</pubDate>
 <itunes:duration>0:07:07</itunes:duration>
