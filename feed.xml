@@ -9,6 +9,14 @@
 <itunes:explicit>false</itunes:explicit>
 <itunes:category text="Government"/>
 <item>
+<title>議会論点解説（8月17日）</title>
+<description>議会論点解説</description>
+<enclosure url="https://kaorunow.github.io/mimigaku-podcast/episodes/2026-08-17_議会論点解説.m4a" length="2697398" type="audio/x-m4a"/>
+<guid isPermaLink="false">2026-08-17_議会論点解説.m4a</guid>
+<pubDate>Mon, 17 Aug 2026 07:00:00 -0000</pubDate>
+<itunes:duration>0:10:44</itunes:duration>
+</item>
+<item>
 <title>想定問答ドリル（8月16日）</title>
 <description>想定問答ドリル</description>
 <enclosure url="https://kaorunow.github.io/mimigaku-podcast/episodes/2026-08-16_想定問答ドリル.m4a" length="1730226" type="audio/x-m4a"/>
