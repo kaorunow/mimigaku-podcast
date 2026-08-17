@@ -8,13 +8,22 @@
 <itunes:author>kaorunow</itunes:author>
 <itunes:explicit>false</itunes:explicit>
 <itunes:category text="Government"/>
+<itunes:image href="https://kaorunow.github.io/mimigaku-podcast/cover.png"/>
 <item>
-<title>議会論点解説（8月17日）</title>
-<description>議会論点解説</description>
-<enclosure url="https://kaorunow.github.io/mimigaku-podcast/episodes/2026-08-17_議会論点解説.m4a" length="2697398" type="audio/x-m4a"/>
-<guid isPermaLink="false">2026-08-17_議会論点解説.m4a</guid>
+<title>議会論点解説：事業団決算はなぜ急悪化したのか（8月17日）</title>
+<description>事業団決算はなぜ急悪化したのか</description>
+<enclosure url="https://kaorunow.github.io/mimigaku-podcast/episodes/2026-08-17_議会論点解説_事業団決算はなぜ急悪化したのか.m4a" length="2636062" type="audio/x-m4a"/>
+<guid isPermaLink="false">2026-08-17_議会論点解説_事業団決算はなぜ急悪化したのか.m4a</guid>
 <pubDate>Mon, 17 Aug 2026 07:00:00 -0000</pubDate>
-<itunes:duration>0:10:44</itunes:duration>
+<itunes:duration>0:10:30</itunes:duration>
+</item>
+<item>
+<title>今週の一冊：生きがいについて・「空気」の研究（8月17日）</title>
+<description>生きがいについて・「空気」の研究</description>
+<enclosure url="https://kaorunow.github.io/mimigaku-podcast/episodes/2026-08-17_今週の一冊_生きがいについて・「空気」の研究.m4a" length="2548192" type="audio/x-m4a"/>
+<guid isPermaLink="false">2026-08-17_今週の一冊_生きがいについて・「空気」の研究.m4a</guid>
+<pubDate>Mon, 17 Aug 2026 07:00:00 -0000</pubDate>
+<itunes:duration>0:10:09</itunes:duration>
 </item>
 <item>
 <title>想定問答ドリル（8月16日）</title>

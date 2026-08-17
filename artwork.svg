@@ -1,0 +1,97 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="1400" viewBox="0 0 1400 1400">
+  <defs>
+    <radialGradient id="bg" cx="50%" cy="38%" r="78%">
+      <stop offset="0%"   stop-color="#221419"/>
+      <stop offset="55%"  stop-color="#120c10"/>
+      <stop offset="100%" stop-color="#050507"/>
+    </radialGradient>
+    <linearGradient id="steel" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%"   stop-color="#ffffff"/>
+      <stop offset="38%"  stop-color="#d8dde6"/>
+      <stop offset="52%"  stop-color="#8e97a6"/>
+      <stop offset="66%"  stop-color="#e6eaf1"/>
+      <stop offset="100%" stop-color="#9aa3b2"/>
+    </linearGradient>
+    <linearGradient id="gold" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%"   stop-color="#f6e2a0"/>
+      <stop offset="50%"  stop-color="#c9a227"/>
+      <stop offset="100%" stop-color="#8a6a12"/>
+    </linearGradient>
+    <linearGradient id="rays" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%"   stop-color="#e0203a" stop-opacity="0"/>
+      <stop offset="100%" stop-color="#e0203a" stop-opacity="0.85"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1400" height="1400" fill="url(#bg)"/>
+
+  <!-- 背後の放射（旭光と、音が広がるさまを兼ねる） -->
+  <g opacity="0.16">
+    <g transform="translate(700,660)">
+      <path d="M0 0 L 640 -150 L 640 -70 Z" fill="url(#rays)"/>
+      <path d="M0 0 L 640  -40 L 640  40 Z" fill="url(#rays)"/>
+      <path d="M0 0 L 640  110 L 640 190 Z" fill="url(#rays)"/>
+      <g transform="scale(-1,1)">
+        <path d="M0 0 L 640 -150 L 640 -70 Z" fill="url(#rays)"/>
+        <path d="M0 0 L 640  -40 L 640  40 Z" fill="url(#rays)"/>
+        <path d="M0 0 L 640  110 L 640 190 Z" fill="url(#rays)"/>
+      </g>
+    </g>
+  </g>
+
+  <!-- 家紋のような二重円 -->
+  <circle cx="700" cy="660" r="497" fill="none" stroke="#e0203a" stroke-width="7" opacity="0.95"/>
+  <circle cx="700" cy="660" r="470" fill="none" stroke="#e0203a" stroke-width="2.5" opacity="0.55"/>
+
+  <!-- 音の弧（左右） -->
+  <g fill="none" stroke="url(#gold)" stroke-linecap="round" opacity="0.9">
+    <path d="M243 560 A 150 150 0 0 0 243 760" stroke-width="11"/>
+    <path d="M188 512 A 210 210 0 0 0 188 808" stroke-width="8" opacity="0.72"/>
+    <path d="M133 470 A 268 268 0 0 0 133 850" stroke-width="5.5" opacity="0.45"/>
+    <g transform="translate(1400,0) scale(-1,1)">
+      <path d="M243 560 A 150 150 0 0 0 243 760" stroke-width="11"/>
+      <path d="M188 512 A 210 210 0 0 0 188 808" stroke-width="8" opacity="0.72"/>
+      <path d="M133 470 A 268 268 0 0 0 133 850" stroke-width="5.5" opacity="0.45"/>
+    </g>
+  </g>
+
+  <!-- 雷（金属質のとげ） -->
+  <g fill="url(#steel)" opacity="0.92">
+    <path d="M700 168 L 742 286 L 706 278 L 738 372 L 658 268 L 698 276 Z"/>
+  </g>
+
+  <!-- 主題字 -->
+  <text x="700" y="782"
+        font-family="Hiragino Mincho ProN, Yu Mincho, serif"
+        font-weight="bold" font-size="322" letter-spacing="16"
+        text-anchor="middle" fill="url(#steel)"
+        stroke="#050507" stroke-width="5" paint-order="stroke">耳學習</text>
+
+  <!-- 圏点のような小さな朱 -->
+  <g fill="#e0203a">
+    <circle cx="530" cy="872" r="9"/>
+    <circle cx="700" cy="872" r="9"/>
+    <circle cx="870" cy="872" r="9"/>
+  </g>
+
+  <!-- 副題 -->
+  <text x="700" y="1085"
+        font-family="Hiragino Mincho ProN, Yu Mincho, serif"
+        font-size="76" letter-spacing="26"
+        text-anchor="middle" fill="#d9c07a" opacity="0.95">通勤の十五分</text>
+
+  <line x1="430" y1="1150" x2="970" y2="1150" stroke="#e0203a" stroke-width="3" opacity="0.7"/>
+
+  <text x="700" y="1240"
+        font-family="Hiragino Sans, sans-serif"
+        font-size="48" letter-spacing="10"
+        text-anchor="middle" fill="#7d8694">MIMIGAKU</text>
+
+  <!-- 落款 -->
+  <g transform="translate(1118,1140)">
+    <rect x="0" y="0" width="150" height="150" rx="10" fill="#e0203a" opacity="0.93"/>
+    <text x="75" y="112"
+          font-family="Hiragino Mincho ProN, serif" font-weight="bold"
+          font-size="104" text-anchor="middle" fill="#12080a">志</text>
+  </g>
+</svg>

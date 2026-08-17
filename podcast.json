@@ -2,5 +2,6 @@
   "title": "耳学習",
   "base_url": "https://kaorunow.github.io/mimigaku-podcast",
   "author": "kaorunow",
-  "description": "Obsidianに蓄積した業務ノートから毎週自動生成している、通勤・家事の時間に聴くための個人用番組です。"
+  "description": "Obsidianに蓄積した業務ノートから毎週自動生成している、通勤・家事の時間に聴くための個人用番組です。",
+  "image": "https://kaorunow.github.io/mimigaku-podcast/cover.png"
 }
